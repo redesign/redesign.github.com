@@ -1,60 +1,272 @@
-<!doctype html>
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]> <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]> ><! <![endif]-->
+<html class='no-js' lang='en'>
+  <!-- <![endif] -->
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Redesign.github.com by redesign</title>
-
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta charset='utf-8' />
+    <meta content='width=device-width' name='viewport' />
+    <title>Hello, Github</title>
+    <link href="/stylesheets/app.css" media="screen" rel="stylesheet" type="text/css" />
+    <script src="/javascripts/foundation/modernizr.foundation.js" type="text/javascript"></script>
     <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
   </head>
   <body>
-    <div class="wrapper">
-      <header>
-        <h1>Redesign.github.com</h1>
-        <p>a something something</p>
-
-
-        <p class="view"><a href="https://github.com/redesign">View My GitHub Profile</a></p>
-
-      </header>
-      <section>
-        <h3>Welcome to GitHub Pages.</h3>
-
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
-
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
-
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
-
-<h3>Designer Templates</h3>
-
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
-
-<h3>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
-      <footer>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
+    <div class='blue banner top'>
+      <div class='row'>
+        <div class='ten columns'>
+          <h1>Rethinking the github project page</h1>
+          <h2>
+            a design exercise from an aspiring githubber
+            <span>september 2012</span>
+          </h2>
+        </div>
+      </div>
+      <img height="300" src="/images/screens/project_page_github_crop.png" width="1274" />
     </div>
-    <script src="javascripts/scale.fix.js"></script>
-    
+    <div class='row'>
+      <div class='seven columns offset-by-three'>
+        <h2 class='subheader'>Hello, Github.</h2>
+      </div>
+    </div>
+    <div class='row'>
+      <div class='three columns'>
+        <img src="/images/photos/me.png" />
+      </div>
+      <div class='seven columns'>
+        <p class='intro'>My name is Ale Muñoz. I am a UX designer from Spain, and I’ve been wishing to work for Github since I was aware one could, you know, work <em>*for*</em> Github.</p>
+        <p>I thought of writing you a lengthy presentation letter about me but then I thought you’d be sick of people telling you about themselves.</p>
+        <p>So, instead, I’ve redesigned your project page.</p>
+      </div>
+    </div>
+    <div class='row'>
+      <div class='six columns offset-by-three end'>
+        <h3 class='subheader'>
+          Introduction
+          <small>Hey ho, let’s go</small>
+        </h3>
+        <p>Whenever I start a design project, I try to look for insights I can use as a starting point. If time and budget permits it, I like to research a bit about the problem at hand, usually by speaking with or simply observing current or potential users.</p>
+        <p>For this exercise, I’ve created some assumptions based on my experience when talking with non-technical users about Github and based my insights (and work) on these assumptions, even if some of them are obviously not perfect.</p>
+      </div>
+    </div>
+    <div class='blue banner'>
+      <div class='row'>
+        <div class='ten columns'>
+          <h1>Step 1: starting point analysis</h1>
+        </div>
+      </div>
+      <img src="/images/screens/project_page_github.png" />
+    </div>
+    <div class='row'>
+      <div class='seven columns offset-by-three'>
+        <h4 class='subheader'>
+          What’s wrong with the current project page<span>, imho</span>
+        </h4>
+        <p>
+          Whenever I visit a project page on github.com (something that happens quite frequently, I must say) the first thing I think is:
+          <blockquote>
+            Man, you’ve surely gained a lot of features through the years…
+            <cite>me</cite>
+          </blockquote>
+        </p>
+        <p>
+          My designer colleagues are not usually that kind. The most repeated comment is that the page lacks hierarchy, looks too busy and doesn’t really drive your attention to any particular point. Also, it’s not clear <strong>at all</strong> what the site is about.
+          <blockquote>
+            What is this, exactly?
+            <cite>anonymous designer</cite>
+          </blockquote>
+        </p>
+        <p>
+          In all honesty, I love Github. I love the features, I love the community, I love the workflow. One of my main frustrations with it is that I cannot use it more to collaborate with my team. Whenever I try to convince some non-technical person to join this amazing experience, I’m greeted with blank stares or suspicious looks.
+          <blockquote>
+            But this... this is for programmers! I’m not a programmer.
+            <cite>my wife</cite>
+          </blockquote>
+        </p>
+        <p>
+          So, even if some efforts have been made by
+          <a href="http://www.wired.com/wiredenterprise/2012/02/github-revisited/">journalists to understand and use Github,</a>
+          I think there’s still some room for improvement here.
+        </p>
+        <p>
+          So, to recap, here’s the list of insights I’ll work with for this (quick & dirty) redesign:
+        </p>
+        <p>
+          — Page
+          <strong>looks too flat,</strong>
+          lacks hierarchy.
+        </p>
+        <p>
+          — There are
+          <strong>too many visible options.</strong>
+          This hinders understanding and makes the workflow hard to understand for non-hardcore profiles.
+        </p>
+        <p>
+          — There is no easy to reach
+          <strong>information for non-technical users,</strong>
+          where they can learn what the project is about.
+        </p>
+        <p>
+          — Visually, the page looks
+          <strong>too busy.</strong>
+          Boxes and lines could be substituted by white space.
+        </p>
+      </div>
+    </div>
+    <div class='banner'>
+      <img src="/images/drafts/sketch_crop.png" />
+    </div>
+    <div class='white banner'>
+      <div class='row'>
+        <div class='ten columns'>
+          <h1>Step 2: sketching</h1>
+        </div>
+      </div>
+      <img src="/images/drafts/project_page_draft.png" />
+    </div>
+    <div class='row'>
+      <div class='seven columns offset-by-three'>
+        <h4 class='subheader'>
+          Thinking with a pencil
+          <span>(or stylus)</span>
+        </h4>
+        <p>
+          I truly believe sketching is what distinguishes a designer from any other professional. Some scholars even suggest that the conversations we have with our sketches are a different kind of language:
+          <blockquote>
+            The way designers work may be inexplicable, not for some romantic or mystical reason, but simply because these processes lie outside the bounds of verbal discourse: they are literally indescribable in linguistic terms.
+            <cite>J. Daley, “Design Creativity and The Understanding of Objects”, Design Studies, Vol. 3, No 3</cite>
+          </blockquote>
+        </p>
+        <p>
+          So I started a conversation with my ideas, refining them and finally settling on some principles for the design:
+        </p>
+        <h6>— progressive disclosure</h6>
+        <h6>— whitespace</h6>
+        <h6>— a home for non-techies</h6>
+        <h6>— clear calls to action</h6>
+        <p>And with these I ran to my new found love (Sketch.app) and started working with grids, and shapes, and colors...</p>
+      </div>
+    </div>
+    <div class='row'>
+      <div class='ten columns'>
+        <img src="/images/screens/dropbox.png" />
+      </div>
+    </div>
+    <div class='blue banner'>
+      <div class='row'>
+        <div class='ten columns'>
+          <h1>Step 4: visual design</h1>
+        </div>
+      </div>
+      <img src="/images/screens/sketchapp.png" />
+    </div>
+    <div class='blue banner'>
+      <div class='row'>
+        <div class='ten columns'>
+          <h1>Behold github.next</h1>
+        </div>
+      </div>
+      <img height="814" src="/images/screens/project_page.png" width="1274" />
+      <img height="814" src="/images/screens/project_page_menu_open.png" width="1274" />
+    </div>
+    <div class='row'>
+      <div class='six columns offset-by-three end'>
+        <h3 class='subheader'>About the author</h3>
+        <p>
+          I am Github user #3832,
+          <a href="https://github.com/bomberstudios">bomberstudios.</a>
+        </p>
+        <p>
+          My current job position says I’m a Design Director at
+          <a href="http://designit.com">Europe’s largest strategic design consultancy,</a>
+          but I like to call myself a “design hacker”.
+          Thus, I’m looking for a new gig that better fits my philosophical approach to design:
+          thinking, designing and actually building the damn thing.
+        </p>
+        <p>
+          Don’t get me wrong: analyzing, researching, defining and conceptualizing products and services is *cool*,
+          but I’m one of those designers that will roll up his sleeves and build a working prototype just to explain
+          how fast an animation should move (after all, *speed* is a design decision).
+          Implementation details are too important to be left out to chance.
+        </p>
+        <p>
+          I like
+          <a href="https://readmill.com/bomberstudios">reading,</a>
+          <a href="http://www.flickr.com/photos/bomberstudios/">photography,</a>
+          and on my (very scarce) free time I like to
+          <a href="http://orangecommands.com">develop extensions for my favorite design tool, Fireworks</a>
+          and come up with ways of doing more with less
+          <a href="http://bomberstudios.com/post/29781397/visual-image-diff-v0-000000001">(usually involving bits of Ruby).</a>
+        </p>
+        <p>I’ve been known to contribute time (and code) to various open source projects, beta programs and local groups, and I'm a frequent speaker on local design-related events. I’ve also taught design at some master degrees in Madrid.</p>
+        <p>When I retire, I plan on designing and coding the definitive wiki system. It will feature proper transclusion, an interface my mother will understand, and beautiful typography.</p>
+        <h4 class='subheader'>Now, what?</h4>
+        <p>
+          Hopefully, by now you’ve either decided I’m not your man or thinking
+          <em>“Hey, I sure wished I knew a bit more about this Ale guy”.</em>
+        </p>
+        <p>
+          If you feel like taking a look at some of my recent work,
+          <a href="http://portfolio.sofanaranja.com">here’s a quick portfolio I put together.</a>
+          Please excuse the rough looks. As you know, the cobblers’ children often go barefoot :)
+        </p>
+        <p>
+          Feel free to contact me at
+          <a href="mailto:bomberstudios@gmail.com">bomberstudios@gmail.com</a>
+          for further
+        </p>
+      </div>
+    </div>
+    <div class='row'>
+      <div class='ten columns panel footer'>
+        Last updated: Sep 23, 2012.
+        Built with ❤ and the help of serve, zurb-foundation, haml & sass.
+        <a data-animation="fadeAndPop" data-reveal-id="modal-impressum" href="#">more details</a>
+      </div>
+    </div>
+    <div class='reveal-modal' id='modal-impressum'>
+      <h4 class='subheader'>Credits.</h4>
+      <p>The following tools were used while designing this site and its contents:</p>
+      <div class='row'>
+        <div class='five columns'>
+          <h6 class='subheader'>Hardware</h6>
+          <ul class='square'>
+            <li><a href="http://www.shopmiquelrius.com/servlet/the-743/Graphite-Notebooks/Detail">Miquelrius Notebook 4</a></li>
+            <li><a href="http://www.zebrapen.com/products/pen/zebra-2-0?c=32">Zebra #2 Pencil</a></li>
+            <li><a href="http://www.pilotpen.us/ProductGroup/82-G-Tec-C.aspx">Pilot G-TEC-C4</a></li>
+            <li><a href="#">Macbook Air 11"</a></li>
+            <li><a href="http://bohemiancoding.com/sketch/">Bohemian Coding’s Sketch</a></li>
+          </ul>
+        </div>
+        <div class='five columns'>
+          <h6 class='subheader'>Software</h6>
+          <ul class='square'>
+            <li><a href="http://www.hogbaysoftware.com/products/writeroom">WriteRoom for iOS</a></li>
+            <li><a href="http://adobe.com/products/adobeideas/">Adobe Ideas</a></li>
+            <li><a href="http://bohemiancoding.com/sketch/">Bohemian Coding’s Sketch</a></li>
+            <li><a href="http://adobe.com/products/fireworks/">Adobe Fireworks</a></li>
+            <li><a href="https://github.com/bomberstudios/serve-foundation">serve-foundation</a></li>
+          </ul>
+        </div>
+      </div>
+      <a class='close-reveal-modal'>&#215;</a>
+    </div>
+    <script src="/javascripts/foundation/jquery.js" type="text/javascript"></script>
+    <script src="/javascripts/foundation/jquery.foundation.accordion.js" type="text/javascript"></script>
+    <script src="/javascripts/foundation/jquery.foundation.alerts.js" type="text/javascript"></script>
+    <script src="/javascripts/foundation/jquery.foundation.buttons.js" type="text/javascript"></script>
+    <script src="/javascripts/foundation/jquery.foundation.forms.js" type="text/javascript"></script>
+    <script src="/javascripts/foundation/jquery.foundation.mediaQueryToggle.js" type="text/javascript"></script>
+    <script src="/javascripts/foundation/jquery.foundation.navigation.js" type="text/javascript"></script>
+    <script src="/javascripts/foundation/jquery.foundation.orbit.js" type="text/javascript"></script>
+    <script src="/javascripts/foundation/jquery.foundation.reveal.js" type="text/javascript"></script>
+    <script src="/javascripts/foundation/jquery.foundation.tabs.js" type="text/javascript"></script>
+    <script src="/javascripts/foundation/jquery.foundation.tooltips.js" type="text/javascript"></script>
+    <script src="/javascripts/foundation/jquery.placeholder.js" type="text/javascript"></script>
+    <script src="/javascripts/foundation/app.js" type="text/javascript"></script>
   </body>
 </html>
